@@ -140,6 +140,18 @@ main{
     .banner{
         padding: 50px 0;
     }
+    .teams-container{
+        flex-direction: column-reverse;
+        padding: 50px 30px;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .teams-content{
+        width: 100%;
+    }
+
  }
 
 
@@ -156,4 +168,14 @@ main{
     .banner{
         padding: 50px 0;
     }
+    .teams-container{
+        flex-direction: column-reverse;
+        padding: 50px 50px;
+    }
+    .teams-img-container{
+        width: 100%;
+    }
+    .teams-content{
+        width: 100%;
+    }   
  }
