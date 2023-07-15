@@ -16,6 +16,7 @@
     color: #fff;
     font-size:1rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
@@ -30,7 +31,7 @@ nav{
     align-items: center;
 }
 .nav-title{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     color: #131313;
 
@@ -40,7 +41,7 @@ nav{
  }
  nav li{
     list-style-type: none;
-    margin-left: 30px;
+    margin: 0px 30px;
     font-size: 1rem;
     font-weight: 500;
  }
@@ -51,7 +52,7 @@ nav{
 
  /* Banner style */
  .banner{
-    padding: 100px 140px;
+    padding: 100px 0;
  }
  .banner-content{
     max-width: 800px;
@@ -62,7 +63,48 @@ nav{
     font-size: 3rem;
     color: #131313;
     font-weight: 700;
+    margin-bottom: 20px;
  }
  .banner-description{
     color: #727272;
+    margin-bottom: 30px;
+ }
+ .banner-img{
+    margin-top: 30px;
+    width: 90%;
+ }
+
+
+
+ /* Responsive style */
+
+
+ /* small or mobile devices */
+ @media screen and (max-width:576px) {
+    header{
+        padding:10px 30px ;
+    }
+    nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner{
+        padding: 50px 0;
+    }
+ }
+
+
+ /* medium or table devices */
+
+ @media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding:20px 50px ;
+    }
+    nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner{
+        padding: 50px 0;
+    }
  }
